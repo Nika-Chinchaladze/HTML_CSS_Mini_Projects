@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	font-size: 20px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 1300px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+th, td {
+	text-transform: capitalize;
+}
+.profile {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin: auto;
+}
+.profile > img {
+	width: 100%;
+	height: auto;
+}
+.left {
+	margin-top: 20px;
+	text-transform: capitalize;
+}
+.right {
+	margin-left: 120px;
+}
+.top {
+	margin-top: 40px;
+	margin-left: 80px;
+}
+.inner {
+	margin-left: 120px;
+}
+.list {
+	text-transform: capitalize;
+}
+.row > div:nth-of-type(2) > ul {
+	text-transform: capitalize;
+}
+h2 {
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+h3 {
+	font-weight: bold;
+	text-transform: capitalize;
+	color: rgb(0, 0, 128);
+}
+li > span {
+	top:-7px; position:relative;
+}
+a {
+	text-decoration: none;
+	color: rgb(140, 70, 20);
+}
