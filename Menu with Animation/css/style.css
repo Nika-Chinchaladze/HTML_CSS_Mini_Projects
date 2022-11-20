@@ -1,0 +1,45 @@
+body {
+	background-image: url(https://miro.medium.com/max/5064/0*MvaOyDLeIsPYJSf2);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#overlay-menu {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	padding: 15px;
+	box-sizing: border-box;
+	margin: auto;
+	border-radius: 50%;
+	cursor: pointer;
+	transition-duration: 2s;
+}
+#menu-icon {
+	font-size: 55px;
+}
+#menu {
+	visibility: hidden;
+}
+#overlay-menu:hover {
+	width: 800px;
+	height: 500px;
+	border-radius: 60px;
+}
+#overlay-menu:hover > #menu {
+	transition-delay: 1.1s;
+	visibility: visible;
+}
+#menu a {
+	font-size: 40px;
+	margin: auto;
+	display: block;
+	width: 300px;
+	border-bottom: 2px solid white;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 10px;
+}
