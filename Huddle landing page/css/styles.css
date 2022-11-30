@@ -1,0 +1,159 @@
+/*First Section*/
+.outer-div {
+	padding: 5% 15%;
+}
+.my-div {
+	text-align: right;
+}
+/*Second Section*/
+.second-div {
+	text-align: center;
+	padding: 8% 10%;
+}
+.second-div > p {
+	padding: 3% 25%;
+}
+.second-div > button {
+	border-radius: 25px;
+	padding: 1% 3%;
+}
+.second-div > button:hover {
+	background-color: #68B984;
+	border-color: #68B984;
+}
+/*Third Section*/
+#third {
+	text-align: center;
+}
+.third-div {
+	padding: 0;
+	margin: 0;
+}
+.phone-div {
+	padding-top: 9%;
+	padding-left: 5%;
+}
+.tablet-div > img {
+	width: 100%;
+	height: auto;
+}
+.phone-div > img {
+	width: 50%;
+	height: auto;
+}
+/*Fourth Section*/
+.fourth-div {
+	text-align: center;
+	padding: 10% 5%;
+}
+.group-div > img {
+	width: 7%;
+	height: auto;
+}
+.chat-div > img {
+	width: 7%;
+	height: auto;
+}
+.my-h1 {
+	font-weight: bold;
+	font-size: 4rem;
+}
+.my-p {
+	font-size: 1.2rem;
+	color: #344D67;
+}
+/*Fifth Section*/
+.fifth-div {
+	text-align: center;
+	padding-top: 5%;
+}
+.text-div {
+	text-align: left;
+	padding-top: 10%;
+}
+.text-div > p {
+	padding-top: 3%;
+}
+.grow-together-div > img {
+	width: 80%;
+	height: auto;
+}
+/*Sixth Section*/
+#sixth {
+	padding: 5%;
+}
+.flow-div {
+	text-align: left;
+	padding-top: 10%;
+}
+.flow-div > p {
+	padding-top: 3%;
+}
+.conversation-div > img {
+	width: 80%;
+	height: auto;
+}
+/*Seventh Section*/
+#seventh {
+	padding: 5%;
+}
+.your-div {
+	text-align: left;
+	padding-top: 10%;
+}
+.your-div > p {
+	padding-top: 3%;
+}
+.user-div > img {
+	width: 80%;
+	height: auto;
+}
+/*Eigth Section*/
+.eigth-div {
+	text-align: center;
+	padding: 5%;
+}
+.eight-h1 {
+	margin-bottom: 3rem;
+}
+.last-btn {
+	border-radius: 25px;
+	padding: 1% 3%;
+}
+.last-btn:hover {
+	background-color: #F49D1A;
+	border-color: #F49D1A;
+}
+/*Last Section*/
+#last {
+	color: white;
+}
+#last p {
+	text-align: left;
+}
+.last-p {
+	padding: 5% 0;
+}
+.last-div {
+	width: 100%;
+	height: auto;
+	background-color: #497174;
+	margin-top: 5%;
+	padding-top: 7%;
+}
+/*Footer*/
+.footer-div {
+	background-color: #497174; 
+	text-align: center;
+	padding: 3% 5%;
+}
+.footer-div a {
+	padding: 0 3%;
+	color: white;
+}
+.footer-div a:hover {
+	color: blue;
+}
+.email-form {
+	background-color: #497174;
+}
