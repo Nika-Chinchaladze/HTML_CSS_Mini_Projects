@@ -1,0 +1,122 @@
+body {
+	margin: 0px;
+	padding: 2% 0 5%;
+	text-align: center;
+}
+
+/*Clock Section*/
+#clock {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	border: 5px solid #251749;
+	background-color: #97DECE;
+	position: relative;
+	margin: auto;
+}
+
+/*Arrow Section*/
+.arrow-vertical {
+	width: 3px;
+	height: 10px;
+	background-color: #251749;
+	position: absolute;
+}
+.arrow-horizontal {
+	width: 10px;
+	height: 3px;
+	background-color: #251749;
+	position: absolute;
+}
+
+#arrow-60{
+	top: 0px;
+	left: 50%;
+}
+
+#arrow-30{
+	bottom: 0px;
+	left: 50%;
+}
+
+#arrow-15{
+	top: 50%;
+	right: 0px;
+}
+
+#arrow-45{
+	top: 50%;
+	left: 0px;
+}
+
+#arrow-45:after{
+	content: '45';
+	position: absolute;
+	top: -15px;
+	left: 10px;
+	font-size: 26px;
+}
+
+#arrow-60:after{
+	content: '60';
+	position: absolute;
+	top: 10px;
+	left: -10px;
+	font-size: 26px;
+}
+
+#arrow-30:after{
+	content: '30';
+	position: absolute;
+	bottom: 7px;
+	left: -10px;
+	font-size: 26px;
+}
+
+#arrow-15:after{
+	content: '15';
+	position: absolute;
+	top: -15px;
+	right: 10px;
+	font-size: 26px;
+}
+
+/*Animation*/
+@keyframes main_arrow {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		background-color: #FF7000;
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/*Main Arrow Section*/
+.main-arrow{
+	width: 3px;
+	height: 42%;
+	background-color: red;
+	position: absolute;
+	transform-origin: center bottom;
+	top: 8%;
+	left: 50%;
+	z-index: 2;
+	animation-name: main_arrow;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.main-ball {
+	width: 10px;
+	height: 10px;
+	background-color:black;
+	border-radius: 50%;
+	position: absolute;
+	top: 49.25%;
+	left: 49.30%;
+	z-index: 2;
+}
