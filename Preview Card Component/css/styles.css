@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	padding: 10% 20%;
+	background-color: #CFF5E7;
+	text-align: left;
+	color: #fff;
+	font-family: "PT Sans Narrow";
+}
+h1 {
+	padding: 20px 0;
+}
+p {
+	margin-bottom: 70px;
+}
+img {
+	width: 60px;
+	height: auto;
+	position: absolute;
+	left: 60px;
+	top: 45px;
+	z-index: 2;
+}
+
+/*Div Section*/
+.sedan, .suv, .luxury {
+	padding: 30px 40px;
+	position: relative;
+}
+.sedan {
+	background-color: #F49D1A;
+}
+.suv {
+	background-color: #439A97;
+}
+.luxury {
+	background-color: #344D67;
+}
+
+/*Circles Section*/
+.circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.sedan-circle {
+	background-color: rgba(197, 137, 64, 0.9);
+}
+.suv-circle {
+	background-color: rgba(28, 49, 94, 0.5);	
+}
+.sport-circle {
+	background-color: #263159;
+}
+
+/*Button Section*/
+.sedan-button, .suv-button, .luxury-button {
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #fff;
+	padding: 10px 30px;
+	border-radius: 20px;
+}
+.sedan-button {
+	color: #F49D1A;
+}
+.suv-button {
+	color: #439A97;
+}
+.luxury-button {
+	color: #344D67;
+}
+
+/*Mobile Size*/
+@media (max-width: 600px) {
+	body {
+		padding: 10% 2%;
+	}
+}
