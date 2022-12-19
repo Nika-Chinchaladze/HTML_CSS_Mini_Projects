@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel Website</title>
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+
+    <!-- HEADER SECTION -->
+    <header id="header-section">
+      <div class="container-fluid">
+        <div class="row pt-1 pb-1 p-md-2 justify-content-between align-items-center">
+          <!-- First Column -->
+          <div class="col-lg-4 col-md-6 order-1 order-lg-0 order-md-0">
+              <a href="#"><i class="bi bi-cursor-fill"></i>&nbsp;Telavi, Georgia &nbsp; | &nbsp;</a>
+              <a href="#"><i class="bi bi-telephone-fill"></i>&nbsp;+995 597-73-39-94</a>
+          </div>
+          <!-- Second Column -->
+          <div class="col-lg-4 col-md-4">
+            <!-- Language -->
+            <a href="#"><i class="bi bi-flag-fill"></i></a>
+            <div class="dropdown drop-div">
+              <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ENG
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">GEO</a></li>
+                <li><a class="dropdown-item" href="#">RUS</a></li>
+              </ul>
+            </div>
+
+            <!-- Currency -->
+            <a href="#"><i class="bi bi-currency-dollar"></i></a>
+            <div class="dropdown drop-div">
+              <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                USD
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">GEL</a></li>
+                <li><a class="dropdown-item" href="#">EUR</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>  
+    </header>
+
+
+    <!-- NAVIGATION BAR -->
+    <div id="navigation-section">
+      <div class="container-fluid g-0">
+        <!-- navigation bar starts -->
+        <nav class="navbar navbar-expand-lg bg-light">
+          <a class="navbar-brand ms-3" href="#">DreamHotel</a>
+          <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-3" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active header-links" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header-links" href="#">Accomodation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header-links" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header-links" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      <!-- navigation bar ends -->
+      </div>
+    </div>
+
+
+    <!-- MAIN SECTION -->
+    <main>
+
+      <!-- CAROUSEL SECTION -->
+      <section id="main-image-section">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <!-- buttons part -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <!-- images part -->
+          <div class="carousel-inner">
+            <div class="carousel-item active carousel-div">
+              <img src="img/entry/img-01.jpg" class="d-block w-100" alt="img 1">
+              <div class="carousel-caption">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item carousel-div">
+              <img src="img/entry/img-02.jpg" class="d-block w-100" alt="img 2">
+              <div class="carousel-caption">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item carousel-div">
+              <img src="img/entry/img-03.jpg" class="d-block w-100 green-image" alt="img 3">
+              <div class="carousel-caption">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <!-- controls part -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+
+
+      <!-- ROOMS SECTION -->
+      <section id="rooms-section">
+        <h3 class="room-h3">Rooms & Pricing</h3>
+        <div class="container-fluid">
+          <div class="row">
+            <!-- first room -->
+            <div class="col-lg-3 col-md-6">
+              <div class="room-div">
+                <img class="img-fluid" src="img/room/room-01.jpg" alt="room 1">
+                <div class="room-desc">
+                  <h5>Type 1</h5>
+                  <p>It is a long established fact that a reader will be.</p>
+                  <p><strong>price:</strong> 1200$</p>
+                  <a class="rent-button" href="#">Rent Room</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- second room -->
+            <div class="col-lg-3 col-md-6 rent-room">
+              <div class="room-div">
+                <img class="img-fluid" src="img/room/regular.jpg" alt="regular room">
+                <div class="room-desc">
+                  <h5>Type 2</h5>
+                  <p>It is a long established fact that a reader will be.</p>
+                  <p><strong>price:</strong> 1300$</p>
+                  <a class="rent-button" href="#">Rent Room</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- third room -->
+            <div class="col-lg-3 col-md-6 room-column rent-room">
+              <div class="room-div">
+                <img class="img-fluid" src="img/room/room-05.jpg" alt="room 5">
+                <div class="room-desc">
+                  <h5>Type 3</h5>
+                  <p>It is a long established fact that a reader will be.</p>
+                  <p><strong>price:</strong> 1400$</p>
+                  <a class="rent-button" href="#">Rent Room</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- fourth room -->
+            <div class="col-lg-3 col-md-6 room-column rent-room">
+              <div class="room-div">
+                <img class="img-fluid" src="img/room/room-01.jpg" alt="room 1">
+                <div class="room-desc">
+                  <h5>Type 4</h5>
+                  <p>It is a long established fact that a reader will be.</p>
+                  <p><strong>price:</strong> 1500$</p>
+                  <a class="rent-button" href="#">Rent Room</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- MEALS SECTION -->
+      <section id="meals-section">
+        <div class="meals-div">
+          <h3>Meals</h3>
+          <!-- control buttons -->
+          <div class="controls-div">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active tab-button" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Boiled Food</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link tab-button" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Roasted Food</button>
+              </li>
+            </ul>
+          </div>
+          <!-- content divs -->
+          <div class="tab-content" id="pills-tabContent">
+            <!-- boild food content -->
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <div class="container-fluid mt-2">
+                <div class="row">
+                  <!-- first column -->
+                  <div class="col-lg-4 col-md-6">
+                    <img class="img-fluid mb-2 short-image" src="img/food/img-01.jpg" alt="first food">
+                    <div class="food-desc-div">
+                      <h5>Type 1</h5>
+                      <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- first column -->
+                  <div class="col-lg-4 col-md-6">
+                    <img class="img-fluid mb-2 short-image" src="img/food/img-02.jpg" alt="second food">
+                    <div class="food-desc-div">
+                      <h5>Type 2</h5>
+                      <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- first column -->
+                  <div class="col-lg-4 col-md-6">
+                    <img class="img-fluid mb-2 short-image" src="img/food/img-03.jpg" alt="third food">
+                    <div class="food-desc-div">
+                      <h5>Type 3</h5>
+                      <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- roasted food content -->
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+              <div class="container-fluid mt-2">
+                <div class="row">
+                  <!-- first column -->
+                  <div class="col-lg-4 col-md-6">
+                    <img class="img-fluid mb-2 short-image" src="img/food/img-04.jpg" alt="fourth food">
+                    <div class="food-desc-div">
+                      <h5>Type 1</h5>
+                      <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- first column -->
+                  <div class="col-lg-4 col-md-6">
+                    <img class="img-fluid mb-2 short-image" src="img/food/img-05.jpg" alt="fifth food">
+                    <div class="food-desc-div">
+                      <h5>Type 2</h5>
+                      <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- first column -->
+                  <div class="col-lg-4 col-md-6">
+                    <img class="img-fluid mb-2 short-image" src="img/food/img-06.jpg" alt="sixth food">
+                      <div class="food-desc-div">
+                        <h5>Type 3</h5>
+                        <p>
+                          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+    </main>
+
+
+    <!-- Footer Section -->
+    <footer id="footer-section">
+      <!-- social media section -->
+      <div class="footer-div">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+      </div>
+      <!-- creator section -->
+      <div class="creator-div">
+        <p>&copy; 2022 Created by Nika Chinchaladze</p>
+        <p><a href="#">Terms and Conditions</a></p>
+      </div>
+    </footer>
+
+
+  </body>
+</html>

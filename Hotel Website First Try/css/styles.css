@@ -1,0 +1,216 @@
+/*General Styles*/
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: lightgrey;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+:root {
+	--main-color-1: black;
+	--main-color-2: white;
+}
+
+/*Header Section*/
+#header-section {
+	background-color: var(--main-color-1);
+}
+.drop-div {
+	display: inline-block;
+}
+.header-links:hover {
+	color: red;
+}
+
+/*Carousel Section*/
+.carousel-div {
+	width: 100%;
+	height: 550px;
+}
+
+/*Rooms Section*/
+#rooms-section {
+	padding: 110px 5px;
+}
+.room-h3 {
+	margin-bottom: 30px;
+}
+.room-div {
+	position: relative;
+}
+.room-desc {
+	width: 84%;
+	margin: auto;
+	background-color: var(--main-color-2);
+	color: var(--main-color-1);
+	padding: 10px;
+	box-shadow:-6px 9px 10px var(--main-color-1);
+	position: absolute;
+	top: 80%;
+	left: 8%;
+}
+.room-desc p:nth-of-type(1) {
+	text-align: left;
+	margin-bottom: 0;
+}
+.room-desc p:nth-of-type(2) {
+	margin-bottom: 15px;
+	padding-left: 30px;
+}
+.rent-button {
+	background-color: var(--main-color-1);
+	padding: 5px 10px;
+	border-radius: 3px;
+	transition-duration: 0.5s;
+}
+.rent-button:hover {
+	font-weight: bold;
+	background-color: #1C315E;
+	color: #FAEAB1;
+	box-shadow: 5px 5px 15px 5px grey;
+}
+
+/*Meals Section*/
+.meals-div {
+	width: 100%;
+	height: 700px;
+	padding: 80px 0;
+	margin-top: 100px;
+}
+.meals-div h3 {
+	margin-bottom: 1.5rem;
+}
+.controls-div {
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 0;
+	background-color: var(--main-color-1);
+}
+.tab-button {
+	color: var(--main-color-2);
+}
+.nav-pills {
+	--bs-nav-pills-link-active-bg: #434242;
+}
+.food-desc-div p {
+	text-align: left;
+}
+.short-image {
+	height: 283px;
+}
+
+
+/*Footer Section*/
+.footer-div {
+	width: 100%;
+	background-color: var(--main-color-2);
+	margin-top: 50px;
+	padding: 3px 0;
+}
+.footer-div a {
+	color: var(--main-color-1);
+	font-size: 1.3rem;
+	margin: 0 5px;
+}
+.footer-div a:nth-of-type(1):hover {
+	color: blue;
+}
+.footer-div a:nth-of-type(2):hover {
+	color: #DC0000;
+}
+.footer-div a:nth-of-type(3):hover {
+	color: red;
+}
+.creator-div {
+	display: flex;
+	justify-content: space-around;
+	background-color: var(--main-color-1);
+	color: var(--main-color-2);
+	align-items: center;
+	padding: 7px 0;
+}
+.creator-div p {
+	margin: 0;
+}
+
+
+
+/*Media Query For Ipads*/
+@media (max-width: 820px) and (min-width: 576px) {
+	#main-image-section {
+		position: relative;
+	}
+	.carousel-caption {
+		position: absolute;
+		top: 60%;
+	}
+	.carousel-indicators {
+		position: absolute;
+		top: 75%;
+	}
+	.green-image {
+		height: 546px;
+	}
+	.room-column {
+		margin-top: 150px;
+	}
+	.meals-div {
+		margin-top: 80px;
+	}
+	.footer-div {
+		margin-top: 550px;
+	}
+}
+
+
+/*Media Query For SmartPhones*/
+@media (max-width: 576px) {
+	#main-image-section {
+		position: relative;
+	}
+	.carousel-div {
+		height: 250px;
+	}
+	.carousel-caption {
+		position: absolute;
+		top: 40%;
+	}
+	.carousel-indicators {
+		position: absolute;
+		top: 80%;
+	}
+	.green-image {
+		height: 240px;
+	}
+	#rooms-section {
+		padding-top: 50px;
+	}
+	.rent-room {
+		margin-top: 150px;
+	}
+	.meals-div {
+		margin-top: 50px;
+	}
+	.short-image {
+		height: auto;
+	}
+	.footer-div {
+		margin-top: 900px;
+	}
+	.footer-div i {
+	font-size: 1.5rem;
+	}
+	.creator-div {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
