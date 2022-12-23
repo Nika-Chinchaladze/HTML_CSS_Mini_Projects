@@ -1,0 +1,120 @@
+/*GENERAL STYLES*/
+html {
+	font-size: 12px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: var(--bs-font-monospace);
+}
+
+/*HEADER SECTION*/
+#header-section {
+	box-sizing: border-box;
+	padding: 0 10px;
+	font-size: 16px;
+}
+#header-section a {
+	text-transform: uppercase;
+}
+
+
+/*EDUCATION SECTION*/
+.education-div {
+	background-image: url(../img/main-picture.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+.info-div {
+	box-sizing: border-box;
+	width: 55%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	padding: 100px 5px;
+	background-color: rgba(104, 185, 132, 0.5);
+	color: white;
+}
+.info-div h1 {
+	font-size: 2.8rem;
+}
+
+
+/*COURSE ENROLLMENT SECTION*/
+#course-section {
+	box-sizing: border-box;
+	padding: 80px 0;
+}
+.course-card {
+	background-color: rgba(223, 223, 222, 0.8);
+}
+
+
+/*CAROUSEL SECTION*/
+.my-carousel-text h5 {
+	font-size: 20px;
+}
+.my-carousel-text {
+	font-size: 16px;
+}
+
+
+/*FOOTER SECTION*/
+#footer-section {
+	font-size: 18px;
+	color: white;
+}
+#footer-section p {
+	text-transform: uppercase;
+}
+.social-media-div a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.subscribe-button {
+	border-radius: 0;
+}
+
+
+/*MEDIA QUERY FOR IPAD PRO*/
+@media (min-width: 1024px) and (max-width: 1199px) {
+	.course-card {
+		width: 90%;
+		margin: auto;
+	}
+}
+
+
+/*MEDIA QUERY FOR IPAD*/
+@media (min-width: 768px) and (max-width: 1023px) {
+	#course-section {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.course-card {
+		width: 80%;
+		margin: auto;
+	}
+}
+
+
+/*MEDIA QUERY FOR SMARTPHONES*/
+@media (max-width: 576px) {
+	.info-div {
+		width: 100%;
+	}
+	#carousel-section {
+		margin-bottom: 80px;
+	}
+	.course-card {
+		width: 70%;
+		margin: auto;
+	}
+}
